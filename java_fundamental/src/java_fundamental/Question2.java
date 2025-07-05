@@ -9,5 +9,5 @@ public static void main(String args[]) {
 		System.out.println("Welcome" +" "+ name);
 		sc.close();
 }
-	sc.close();
+	
 }
