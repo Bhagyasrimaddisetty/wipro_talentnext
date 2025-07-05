@@ -1,6 +1,6 @@
 package java_fundamental;
 import java.util.*;
-public class Question5 {
+public class Question05 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int num=sc.nextInt();

@@ -2,7 +2,7 @@ package java_fundamental;
 
 
 import java.util.*;
-public class Question8 {
+public class Question08 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		char c=sc.next().charAt(0);
