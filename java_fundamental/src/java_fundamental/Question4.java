@@ -13,11 +13,9 @@ if(num>0) {
 }else {
 	System.out.println("Zero");
 }
-<<<<<<< HEAD
-sc.close();
-=======
+
 		sc.close();
->>>>>>> 804a1da3e7ea41df3d2faf81f008000c6f2b73b8
+
 	}
 
 }
