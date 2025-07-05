@@ -14,13 +14,10 @@ System.out.println("True");
 		System.out.println("False");
 	}
 }
-<<<<<<< HEAD
-sc.close();
-=======
 
 		sc.close();
 
->>>>>>> c64df711015e48d5c29ed1256e2a990790657bd0
+
 	}
 }
 	
