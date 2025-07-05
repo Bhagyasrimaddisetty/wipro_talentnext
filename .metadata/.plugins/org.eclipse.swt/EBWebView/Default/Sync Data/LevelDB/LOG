@@ -1,2 +1,3 @@
-2025/07/04-10:48:55.003 9ec Creating DB C:\bhagya\wipro_talentnext\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB since it was missing.
-2025/07/04-10:48:55.010 9ec Reusing MANIFEST C:\bhagya\wipro_talentnext\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2025/07/04-15:53:14.234 411c Reusing MANIFEST C:\bhagya\wipro_talentnext\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2025/07/04-15:53:14.236 411c Recovering log #3
+2025/07/04-15:53:14.236 411c Reusing old log C:\bhagya\wipro_talentnext\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/000003.log 
