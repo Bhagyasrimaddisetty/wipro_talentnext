@@ -1,27 +1,27 @@
 package java_fundamental;
-
 import java.util.Scanner;
-public class 	Question10 {
+public class Question10 {
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			Scanner sc = new Scanner(System.in);
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-Scanner sc=new Scanner(System.in);
-String gender=sc.nextLine();
-int age=sc.nextInt();
-if(gender.equals("female")) {
-	if(age>=1 && age<=58) {
-		System.out.println("the percentage of intrest is 8.2%");}
-	if(age>=59 && age<=100) {
-		System.out.println("the percentage of intrest is 9.2%");}}
-	else  {
-		if(age>=1 && age<=58) {
-		System.out.println("the percentage of intrest is 8.4%");}
-		else {
-		
-				System.out.println("the percentage of intrest is 10.5%");}
+	        System.out.print("Enter a character: ");
+	        char ch = sc.next().charAt(0);
+
+	        if (Character.isLowerCase(ch)) {
+	            char upper = Character.toUpperCase(ch);
+	            System.out.println("Converted to uppercase: " + upper);
+	        } else if (Character.isUpperCase(ch)) {
+	            char lower = Character.toLowerCase(ch);
+	            System.out.println("Converted to lowercase: " + lower);
+	        } else {
+	            System.out.println("Not an alphabet character.");
+	        }
+	        sc.close();
 		}
-	
-sc.close();
+		
+
 	}
-}
+
+
 

@@ -1,24 +1,29 @@
 package java_fundamental;
-
-
 import java.util.Scanner;
-
 public class Question9 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+public static void main(String[] args) {
+			Scanner scanner = new Scanner(System.in);
+			String gender = scanner.nextLine();
+			int age = scanner.nextInt();
+			double interestRate = 0.0;
+			if (gender.equalsIgnoreCase("Female")) {
+				if (age >= 1 && age <= 58) {
+					interestRate = 8.2;
+				} else if (age >= 59 && age <= 100) {
+					interestRate = 9.2;
+				}
+			} else if (gender.equalsIgnoreCase("Male")) {
+				if (age >= 1 && age <= 58) {
+					interestRate = 8.4;
+				} else if (age >= 59 && age <= 100) {
+					interestRate = 10.5;
+				}
+			}
 
-        System.out.print("Enter a character: ");
-        char ch = sc.next().charAt(0);
+			if (interestRate > 0) {
+				System.out.println("Interest rate: " + interestRate + "%");
+			} 
 
-        if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
-            System.out.println("Alphabet");
-        } else if (ch >= '0' && ch <= '9') {
-            System.out.println("Digit");
-        } else {
-            System.out.println("Special Character");
-        }
-
-        sc.close();
-    }
-}
- 
+			scanner.close();
+		}
+	}
