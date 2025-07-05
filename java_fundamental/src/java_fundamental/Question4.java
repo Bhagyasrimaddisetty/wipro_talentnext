@@ -13,6 +13,7 @@ if(num>0) {
 }else {
 	System.out.println("Zero");
 }
+		sc.close();
 	}
 
 }
