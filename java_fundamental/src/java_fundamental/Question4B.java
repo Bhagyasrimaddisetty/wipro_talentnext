@@ -14,6 +14,7 @@ System.out.println("True");
 		System.out.println("False");
 	}
 }
+		sc.close();
 	}
 }
 	
