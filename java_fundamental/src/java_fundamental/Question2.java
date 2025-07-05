@@ -8,4 +8,5 @@ public static void main(String args[]) {
 		String name =  sc.next();
 		System.out.println("Welcome" +" "+ name);
 }
+	sc.close();
 }
